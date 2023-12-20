@@ -1,0 +1,43 @@
+.story #place {
+  background-image: url("../assets/images/Studio_Koukaki-image_place.png");
+  position: relative;
+}
+
+.story .big-cloud, .story .small-cloud {
+  position: absolute;
+  z-index: 1;
+  filter: blur(15px);
+}
+
+.story .big-cloud {
+  top: 10%;
+  right: 34%;
+}
+
+.story .small-cloud {
+  top: 39%;
+  right: 62%;
+}
+
+#place div h3, #place div p {
+  position: relative;
+  top: -42px;
+  left: 20px;
+}
+
+.site-main {
+  overflow: hidden;
+}
+
+.animate-cloud {
+  animation: cloud-mouvement 6s linear forwards infinite;
+}
+
+@keyframes cloud-mouvement {
+  0% {
+    transform: translateX(300px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}/*# sourceMappingURL=section-place.css.map */

@@ -1,0 +1,175 @@
+@charset "UTF-8";
+/*.burger-menu {
+  filter: drop-shadow(0px 0px 5px #ff5c00);
+  -webkit-filter: drop-shadow(0px 0px 5px #ff5c00);
+  -moz-filter: drop-shadow(0px 0px 5px #ff5c00);
+}*/
+.burger-menu li > a:hover {
+  filter: drop-shadow(0px 0px 5px #ff5c00);
+  -webkit-filter: drop-shadow(0px 0px 5px #ff5c00);
+  -moz-filter: drop-shadow(0px 0px 5px #ff5c00);
+}
+
+.main-navigation.toggled ul {
+  display: flex !important;
+}
+
+#site-navigation {
+  position: relative;
+}
+
+.burger {
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.4rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.burger h2, .burger li > a {
+  font-size: 3.1rem;
+}
+
+.burger .burger-menu {
+  position: relative;
+  width: 100%;
+  height: 91vh;
+  background: #FFF5E9;
+  font-size: 3em;
+  display: none;
+}
+
+.burger-menu ul {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+  gap: 1em;
+}
+
+.burger-menu-footer {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 40px;
+}
+
+.burger-close-modal {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  gap: 8px;
+  width: 40px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  right: 3em;
+  cursor: pointer;
+}
+
+.burger-close-modal .line {
+  height: 2px;
+  background-color: #000;
+  display: block;
+  width: 100%;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Création du bouton pour fermer */
+.burger-close-modal.close .line:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-close-modal.close .line:first-child {
+  transform: rotate(45deg) translate3d(8px, 6px, 0);
+}
+
+.burger-close-modal.close span.line:last-child {
+  transform: rotate(-45deg) translate3d(8px, -6px, 0);
+}
+
+.burger-menu .line {
+  height: 2px;
+  background-color: #000;
+  display: block;
+  width: 100%;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+/*.burger-menu li {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 60px;
+  padding: 28.5px;
+  text-align: center;
+}
+/*.burger-menu li a:hover {
+  text-shadow: 0px 0px 14px #FF5C00;
+  color: black;
+}
+
+.menu-burger-footer {
+  bottom: 432px;
+  left: 45%;
+}
+
+.menu-image {
+  position: absolute;
+}
+
+.flower-orchid {
+  top: 100px;
+  left: -4%;
+  width: 172.57px;
+}
+
+.flower-sunflower {
+  top: 95px;
+  right: 15%;
+  width: 216px;
+}
+
+.flower-random {
+  right: -2.3%;
+  top: 400px;
+  width: 75.75px;
+}
+
+.flower-other {
+  top: 500px;
+  left: 14.8%;
+  width: 70.76px;
+}
+
+.flower-hibiscus {
+  top: 489px;
+  right: -21.6%;
+  width: 626px;
+}
+
+.cat-blue {
+  top: 160px;
+  left: 18.5%;
+  animation: logo-move 20s 0s linear both infinite;
+}
+
+.cat-grey {
+  top: 361px;
+  right: 15%;
+  animation: logo-move 20s 3s linear both infinite;
+}
+
+.cat-yellow {
+  top: 526px;
+  left: 5%;
+  animation: logo-move 20s 6s linear both infinite;
+}*//*# sourceMappingURL=menu.css.map */

@@ -1,0 +1,31 @@
+.section-oscars {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    & h3 {
+        background-image: url("../assets/images/backgroundh3.png");
+        background-size: 100%;
+        text-align: left;
+        padding: 100px 84px;
+    }
+    & img {
+        margin-top: 100px;
+        height: 129px;
+    }
+    &::before {
+        content: url("../assets/images/Sunflower.png");
+        position: absolute;
+        left: 10em;
+        top: -3em;
+    }
+    &::after {
+        content: url("../assets/images/orchid.png");
+        position: absolute;
+        right: -5em;
+        bottom: 22em;
+    }
+}
+
+.site-footer::before, .site-footer::after {
+    display: none;
+}

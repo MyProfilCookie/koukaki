@@ -1,0 +1,106 @@
+@charset "UTF-8";
+.burger-menu::after {
+  content: url("../assets/images/orchid.png");
+  position: absolute;
+  left: -4em;
+  top: 3em;
+  transform: scale(0.9);
+}
+
+.burger-menu-story::after {
+  content: url("../assets/images/Sunflower.png");
+  position: absolute;
+  left: 24em;
+  bottom: 0em;
+}
+
+.burger-menu-character::after {
+  content: url("../assets/images/random_flower.png");
+  position: absolute;
+  left: 54em;
+  top: -2em;
+  transform: scale(0.3);
+}
+
+.burger-menu-place::after {
+  content: url("../assets/images/flower.png");
+  position: absolute;
+  right: 28em;
+  top: -2em;
+  transform: scale(0.5);
+}
+
+.burger-menu-footer::after {
+  content: url("../assets/images/hibiscus_footer.png");
+  position: absolute;
+  left: 500px;
+  bottom: -23.5em;
+}
+
+.burger-menu-footer::before {
+  content: url("../assets/images/catYellow.png");
+  position: absolute;
+  right: 30em;
+  bottom: 0;
+  animation: float 5s 300ms infinite ease-in-out;
+}
+
+.burger-menu-place::before {
+  content: url("../assets/images/catGrey.png");
+  position: absolute;
+  left: 20em;
+  top: -4em;
+  animation: float 6s 200ms infinite ease-in-out;
+}
+
+.burger-menu-story::before {
+  content: url("../assets/images/catBlue.png");
+  position: absolute;
+  right: 20em;
+  bottom: -3em;
+  animation: float 7s 100ms infinite ease-in-out;
+}
+
+.main-navigation li {
+  position: relative;
+  font-size: 14px;
+}
+
+.burger-menu-logo {
+  margin: 40px;
+  width: 154px;
+  filter: drop-shadow(0px 0px 10px rgba(255, 92, 0, 0.6));
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(255, 92, 0, 0.6));
+  -moz-filter: drop-shadow(0px 0px 10px rgba(255, 92, 0, 0.6));
+}
+
+/* Pour faire flotter les éléments */
+@keyframes float {
+  0% {
+    transform: translate3d(6px, 6px, 0);
+  }
+  12% {
+    transform: translate3d(0px, 6px, 0);
+  }
+  24% {
+    transform: translate3d(6px, -4px, 0);
+  }
+  36% {
+    transform: translate3d(6px, 0px, 0);
+  }
+  48% {
+    transform: translate3d(-4px, -6px, 0);
+  }
+  60% {
+    transform: translate3d(0px, -4px, 0);
+  }
+  72% {
+    transform: translate3d(-8px, 6px, 0);
+  }
+  84% {
+    transform: translate3d(-4px, 0px, 0);
+  }
+  100% {
+    transform: translate3d(6px, 6px, 0);
+  }
+}/*# sourceMappingURL=burger-menu.css.map */

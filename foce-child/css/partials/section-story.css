@@ -1,0 +1,105 @@
+.background-video {
+  position: absolute;
+  width: 100%;
+  max-width: 1440px;
+  animation: video-move 2s 400ms both;
+}
+
+.banner {
+  position: relative;
+  min-height: none;
+  align-items: flex-start;
+}
+.banner img {
+  animation: logo-move 25s 0s linear both infinite;
+  position: fixed;
+  display: block;
+  margin-top: 80px;
+}
+
+.story__article {
+  margin-bottom: 2em;
+  padding-bottom: 0px;
+}
+
+@keyframes video-move {
+  0% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+@keyframes logo-move {
+  0% {
+    transform: translate(0px, 0px);
+    animation-timing-function: ease-in;
+  }
+  5% {
+    transform: translate(10px, 10px);
+    animation-timing-function: ease-in-out;
+  }
+  10% {
+    transform: translate(25px, 5px);
+  }
+  15% {
+    transform: translate(35px, -20px);
+  }
+  20% {
+    transform: translate(15px, -40px);
+  }
+  25% {
+    transform: translate(0px, -45px);
+    animation-timing-function: ease-in-out;
+  }
+  30% {
+    transform: translate(-20px, -30px);
+  }
+  35% {
+    transform: translate(-10px, -10px);
+  }
+  40% {
+    transform: translate(-5px, 10px);
+  }
+  45% {
+    transform: translate(-20px, 20px);
+    animation-timing-function: ease-in-out;
+  }
+  50% {
+    transform: translate(-40px, 10px);
+  }
+  55% {
+    transform: translate(-40px, -20px);
+  }
+  60% {
+    transform: translate(-10px, -30px);
+    animation-timing-function: ease-in-out;
+  }
+  65% {
+    transform: translate(20px, -25px);
+  }
+  70% {
+    transform: translate(30px, -10px);
+  }
+  75% {
+    transform: translate(30px, 10px);
+  }
+  80% {
+    transform: translate(10px, 30px);
+    animation-timing-function: ease-in-out;
+  }
+  85% {
+    transform: translate(-10px, 40px);
+  }
+  90% {
+    transform: translate(-30px, 30px);
+  }
+  95% {
+    transform: translate(-25px, 10px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}/*# sourceMappingURL=section-story.css.map */

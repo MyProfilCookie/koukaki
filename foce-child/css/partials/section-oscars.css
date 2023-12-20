@@ -1,0 +1,31 @@
+.section-oscars {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.section-oscars h3 {
+  background-image: url("../assets/images/backgroundh3.png");
+  background-size: 100%;
+  text-align: left;
+  padding: 100px 84px;
+}
+.section-oscars img {
+  margin-top: 100px;
+  height: 129px;
+}
+.section-oscars::before {
+  content: url("../assets/images/Sunflower.png");
+  position: absolute;
+  left: 10em;
+  top: -3em;
+}
+.section-oscars::after {
+  content: url("../assets/images/orchid.png");
+  position: absolute;
+  right: -5em;
+  bottom: 22em;
+}
+
+.site-footer::before, .site-footer::after {
+  display: none;
+}/*# sourceMappingURL=section-oscars.css.map */

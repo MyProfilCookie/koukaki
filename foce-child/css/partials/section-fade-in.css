@@ -1,0 +1,61 @@
+section, .banner {
+  animation: section-fade-in 2s 0ms ease-in-out both;
+}
+
+.logo-image {
+  position: sticky;
+  top: 80px;
+  z-index: 10;
+  opacity: 1;
+  animation: logo-banner 2s 300ms both, float 6s 2s infinite ease-in-out;
+}
+
+.banner {
+  animation: section-fade-in-movie 1.5s 300ms ease-in-out both;
+  background-image: none;
+}
+
+.background-video .banner-video {
+  animation: section-fade-in-move 2s 300ms both;
+}
+
+@keyframes logo-banner {
+  0% {
+    transform: translateY(600px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes section-fade-in {
+  0% {
+    transform: translateY(170px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/*@keyframes section-fade-in-movie {
+  0% {
+      transform: translateY(-100px);
+      opacity: 0;
+  }
+
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}*/
+@keyframes section-fade-in-movie {
+  0% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}/*# sourceMappingURL=section-fade-in.css.map */

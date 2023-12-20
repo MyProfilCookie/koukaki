@@ -1,0 +1,21 @@
+.story__article::after,
+#studio h2::before,
+.story h2::after,
+#studio h2::after,
+.site-footer::before,
+.site-footer::after,
+.nomination::before,
+.nomination::after,
+.site-footer ul::after,
+.burger ::after {
+  animation: rotate-flower var(--rotate) linear infinite;
+}
+
+@keyframes rotate-flower {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=flower-rotate.css.map */
